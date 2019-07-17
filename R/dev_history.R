@@ -38,6 +38,11 @@ read_file("README.Rmd") %>% str_replace_all("mortgage_forecasts", package_name) 
 rmarkdown::render("README.Rmd")
 
 
-# double check ------------------------------------------------------------
+# build ------------------------------------------------------------
 
+# conda build .
 
+# /Users/vija/miniconda3/conda-bld/noarch
+# conversion_metrics-1.0.0-py_1.tar.bz2
+# anaconda login
+# anaconda upload /Users/vija/miniconda3/conda-bld/noarch/conversion_metrics-1.0.0-py_1.tar.bz2
