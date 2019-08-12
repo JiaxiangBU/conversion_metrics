@@ -32,8 +32,14 @@ with:
 conda install -c jiaxiangbu conversion_metrics 
 ```
 
-or the development version from [GitHub](https://github.com/) with:
+or the development version from [GitHub](https://github.com/)
+with:
 
 ``` conda
 pip install git+https://github.com/JiaxiangBU/conversion_metrics
 ```
+
+## Examples
+
+[转化率相关例子](https://jiaxiangbu.github.io/analyze-business-data-sql/analysis/analyzing-business-data-in-sql-learning-notes.html#conversion-and-retention-rates)，
+**2.5 conversion and retention rates**， **2.6 conversion attrs**

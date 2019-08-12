@@ -46,3 +46,11 @@ rmarkdown::render("README.Rmd")
 # conversion_metrics-1.0.0-py_1.tar.bz2
 # anaconda login
 # anaconda upload /Users/vija/miniconda3/conda-bld/noarch/conversion_metrics-1.0.0-py_1.tar.bz2
+
+
+# readme ------------------------------------------------------------------
+
+file.edit("README.Rmd")
+rmarkdown::render("README.Rmd")
+rstudioapi::viewer("README.html")
+file.remove("README.html")
